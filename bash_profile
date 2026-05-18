@@ -1,0 +1,1 @@
+/Users/richard.baah/dotfiles/bash_profile
