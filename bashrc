@@ -58,4 +58,13 @@ export GOPRIVATE=
 export GOPROXY="https://depot-read-api-go.us1.ddbuild.io/magicmirror/magicmirror/@current/|https://depot-read-api-go.us1.ddbuild.io/magicmirror/magicmirror/@current/|https://depot-read-api-go.us1.ddbuild.io/magicmirror/testing/@current/"
 # END ANSIBLE MANAGED BLOCK
 export PS1='\w $ '
+export EDITOR=nvim
+export VISUAL=nvim
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias rm="rm -i" #promp before removing
 alias h="history"
+alias vi="nvim"
+alias vim="nvim"
+set -o vi
